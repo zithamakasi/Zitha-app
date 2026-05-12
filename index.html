@@ -8,29 +8,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Weather App</title>
 </head>
 
 <body>
     <div class="container">
         <header>
-            <form>
-                <input type="text" placeholder="Search..." />
-                <input type="submit" />
+            <form class="search-form">
+                <input type="text" placeholder="Search for a city" class="search-input" />
+                <input type="submit" class="search-button" />
             </form>
         </header>
         <main>
             <h1>
                 Port Elizabeth
             </h1>
-            <p>
-                ⛅ </br> 16 &degC
-            </p>
-            <p>
-                Tuesday 13:24, moderate rain</br>
-                Humidity: 84%, Wind: 8.2km/h
-            </p>
+            <div class="para">
+                <p>
+                    ⛅ </br> 16 &degC
+                </p>
+            </div>
+            <div>
+                <p>
+                    Tuesday 13:24, moderate rain</br>
+                    Humidity: 84%, Wind: 8.2km/h
+                </p>
+            </div>
         </main>
         <footer>
             This project is coded by

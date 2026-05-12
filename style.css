@@ -2,6 +2,14 @@ body {
   background: white;
   font-family: "Times New Roman", Times, serif;
 }
+h1 {
+  margin: 10px 0;
+}
+
+footer {
+  color: rgb(0, 0, 0, o.6);
+  font-size: 17px;
+}
 
 .container {
   max-width: 600px;
@@ -11,4 +19,19 @@ body {
   background-color: gray;
   border-radius: 10px;
   text-align: center;
+}
+.search-input {
+  border-radius: 6px;
+  border: none;
+  padding: 10px;
+  margin: 2px;
+}
+
+.search-button {
+  color: aliceblue;
+  background-color: blueviolet;
+  border-radius: 6px;
+  border: none;
+  padding: 10px;
+  margin: 2px;
 }
