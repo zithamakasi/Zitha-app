@@ -3,7 +3,7 @@ body {
   font-family: "Times New Roman", Times, serif;
 }
 h1 {
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 footer {
@@ -34,4 +34,9 @@ footer {
   border: none;
   padding: 10px;
   margin: 2px;
+}
+
+.para {
+  display: flex;
+  justify-content: space-between;
 }
