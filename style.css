@@ -1,21 +1,24 @@
 body {
-  background: white;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/178/313/original/IMG-20260211-WA0040.jpg?1771001346");
+  background-size: cover;
+  background-repeat: none;
   font-family: "Times New Roman", Times, serif;
 }
 
 h1 {
    margin-bottom: 0 ;
-   margin-left: 20px;
 }
 
 footer {
   color: rgb(0, 0, 0, o.6);
   font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .container {
   max-width: 600px;
-  margin: 50px auto;
+  margin: 210px auto;
   padding: 20px;
   box-shadow: inset;
   background-color: gray;
@@ -43,18 +46,22 @@ footer {
   margin: 2px;
 }
 
+.paragraph{
+  margin: 0;
+}
+
 .para {
   display: flex;
   justify-content: space-between;
-margin: 20px 0 0;
-padding: 0;
+  margin: 20px 0 0;
+  padding: 0;
 }
 
 .temp {
- display: flex;
+  display: flex;
   justify-content: space-between;
   margin: 0 auto;
-padding:10px;
+  padding:10px;
 }
 
 .weather-icon {
