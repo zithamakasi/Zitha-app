@@ -60,20 +60,21 @@ footer {
 .temp {
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
-  padding:10px;
+  margin: 30px;
+  padding: 0 ;
 }
 
 .weather-icon {
-font-size: 35px;
+font-size: 45px;
+margin-top: 10px;
 }
 
 .weather-temp {
-font-size: 60px
+font-size: 80px
 }
 
 .weather-units {
-font-size: 20px;
+font-size: 25px;
 }
 
 .speed {
