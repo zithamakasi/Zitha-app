@@ -16,7 +16,7 @@
     <div class="container">
         <header>
             <form class="search-form">
-                <input type="text" placeholder="Search for a city" class="search-input" />
+                <input type="text" placeholder="Search for a city..." class="search-input" />
                 <input type="submit" class="search-button" />
             </form>
         </header>
@@ -25,15 +25,16 @@
                 <h1>
                     Port Elizabeth
                 </h1>
-
+            <div class= "temp" 
                 <p>
-                    ⛅ </br>16 &degC
+                    <div class="weather-icon">⛅</div><div class="weather-temp">16</div> <div class="weather-units">&degC</div>
                 </p>
             </div>
-            <div>
+            </div>
+            <div class ="speed">
                 <p>
                     Tuesday 13:24, moderate rain</br>
-                    Humidity: 84%, Wind: 8.2km/h
+                    Humidity: <span class="weather-hum"><strong>84%</strong></span>, Wind: <span class="weather-wind"><strong>8.2km/h,</strong></span>
                 </p>
             </div>
         </main>
