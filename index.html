@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <script src="https://unpkg.com/axios@1.13.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Weather App</title>
 </head>
@@ -16,38 +17,39 @@
     <div class="container">
         <header>
             <form class="search-form" id="search-form">
-                <input type="text" placeholder="Search for a city..."required id="search-form-input" class="search-input" />
+                <input type="text" placeholder="Search for a city..." required id="search-form-input"
+                    class="search-input" />
                 <input type="submit" class="search-button" />
             </form>
         </header>
         <main>
             <div class="para">
-              <div class ="speed">
-                <h1 id="city">Port Elizabeth</h1>
-                <p>
-                <div class="paragraph">
-                    Tuesday 13:24, moderate rain
-                </br>
-                    Humidity: <span class="weather-hum"><strong>84%</strong></span>, 
-                    Wind:<span class="weather-wind"><strong>8.2km/h,</strong></span>
+                <div class="speed">
+                    <h1 id="city">Port Elizabeth</h1>
+                    <p>
+                    <div class="paragraph">
+                        Tuesday 13:24, moderate rain
+                        </br>
+                        Humidity: <span class="weather-hum"><strong>84%</strong></span>,
+                        Wind:<span class="weather-wind"><strong>8.2km/h,</strong></span>
+                    </div>
+                    </p>
                 </div>
-                </p>
-              </div>
-                <div class= "temp">
+                <div class="temp">
                     <div class="weather-icon"> ⛅ </div>
-                    <div class="weather-temp"> <strong>16</strong> </div> 
+                    <div class="weather-temp"> <strong>16</strong> </div>
                     <div class="weather-units"> &degC </div>
                 </div>
             </div>
         </main>
         <footer>
             This project is coded by
-            <a href="https://github.com/zithamakasi" target="_blank">Zitha Makasi</a>, on 
-            <a href="https://github.com/zithamakasi/Zitha-app.git" target="_blank">GitHub</a> and 
+            <a href="https://github.com/zithamakasi" target="_blank">Zitha Makasi</a>, on
+            <a href="https://github.com/zithamakasi/Zitha-app.git" target="_blank">GitHub</a> and
             <a href="https://zitha.netlify.app/" target="_blank">hosted on Netlify</a>
         </footer>
     </div>
-    <script src= "index.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
