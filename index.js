@@ -19,7 +19,6 @@ function weatherInfo(response) {
 function formatDate(date) {
   let hours = date.getHours();
   let minutes = date.getMinutes();
-  let seconds = date.getSeconds();
   let weekdays = [
     "Sunday",
     "Monday",
