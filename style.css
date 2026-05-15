@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-   margin-bottom: 0 ;
+  margin-bottom: 0;
 }
 
 footer {
@@ -46,7 +46,7 @@ footer {
   margin: 2px;
 }
 
-.paragraph{
+.paragraph {
   margin: 0;
 }
 
@@ -61,33 +61,33 @@ footer {
   display: flex;
   justify-content: space-between;
   margin: 30px;
-  padding: 0 ;
+  padding: 0;
 }
 
 .weather-icon {
-font-size: 45px;
-margin-top: 10px;
+  font-size: 45px;
+  height: 90px;
 }
 
 .weather-temp {
-font-size: 80px
+  font-size: 80px;
 }
 
 .weather-units {
-font-size: 25px;
+  font-size: 25px;
 }
 
 .speed {
-text-align: left;
-margin-top: 0;
-font-size: 18px;
-margin-left: 20px;
+  text-align: left;
+  margin-top: 0;
+  font-size: 18px;
+  margin-left: 20px;
 }
 
-.weather-hum{
-color: blue ;
+.weather-hum {
+  color: blue;
 }
 
 .weather-wind {
-color: blue ;
+  color: blue;
 }
