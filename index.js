@@ -52,7 +52,33 @@ function search(event) {
   searchCity(searchInput.value);
 }
 
+function displayForecast() {
+  let days = ["Tue", "Wed", "Thu", "Fri", "Sat"];
+  let forecastHtml = "";
+
+  days.forEach(function (day) {
+    forecastHtml =
+      forecastHtml +
+      `
+<div class="weather-forecast">
+          <div class="weather-day">${day}</div>
+        <div class="weather-icon">⛅</div>
+      <div class="weather-temperatures">
+        <div class="weather-temperature">
+      <strong>25</strong>&deg
+    </div>
+  <div class="weather-temperature">17&deg</div>
+</div>
+ </div>
+`;
+  });
+
+  let forecastElement = document.querySelector("#forecast");
+  forecastElement.innerHTML = forecastHtml;
+}
+
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", search);
 
 searchCity("Port%20Elizabeth");
+displayForecast();
