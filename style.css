@@ -91,3 +91,29 @@ footer {
 .weather-wind {
   color: blue;
 }
+
+.weather-forecast {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.weather-day {
+  color: whitesmoke;
+  font-size: 25px;
+  margin: 0 10px;
+}
+
+.weather-icon {
+  font-size: 25px;
+}
+
+.weather-temperatures {
+  color: blue;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.weather-temperature {
+  padding: 0 10px;
+}
