@@ -61,15 +61,12 @@ function displayForecast() {
       forecastHtml +
       `
 <div class="weather-forecast">
-          <div class="weather-day">${day}</div>
-        <div class="weather-icon">⛅</div>
-      <div class="weather-temperatures">
-        <div class="weather-temperature">
-      <strong>25</strong>&deg
-    </div>
-  <div class="weather-temperature">17&deg</div>
+  <div class="weather-day">${day}</div>
+  <div class="weather-icon">⛅</div>
+  <div class="weather-temperatures">
+  <strong>25</strong>&deg 17&deg
+  </div>
 </div>
- </div>
 `;
   });
 
