@@ -19,7 +19,7 @@ footer {
 
 .container {
   max-width: 850px;
-  margin: 210px auto;
+  margin: 150px auto;
   padding: 20px;
   box-shadow: inset;
   background-color: gray;
@@ -105,8 +105,10 @@ footer {
 }
 
 .weather-icon {
-  text-align: center;
-  font-size: 40px;
+  display: block;
+  margin: 0 auto;
+  width: 70px;
+  height: 65px;
 }
 
 .weather-temperatures {
