@@ -27,17 +27,17 @@ footer {
 }
 
 .search-input {
-  width: 86%;
+  width: 70%;
   max-width: 600%;
   border-radius: 6px;
   border: none;
   padding: 10px;
-  margin: 2px;
+  margin-left: 62px;
 }
 
 .search-button {
   width: 10%;
-  max-width: 600%;
+  max-width: 400%;
   color: aliceblue;
   background-color: blueviolet;
   border-radius: 6px;
