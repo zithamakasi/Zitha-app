@@ -27,12 +27,12 @@ footer {
 }
 
 .search-input {
-  width: 60%;
+  width: 50%;
   max-width: 600%;
   border-radius: 6px;
   border: none;
   padding: 10px;
-  margin-left: 52px;
+  margin-left: 42px;
 }
 
 .search-button {
