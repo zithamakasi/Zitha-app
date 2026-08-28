@@ -27,7 +27,7 @@ footer {
 }
 
 .search-input {
-  width: 50%;
+  width: 60%;
   max-width: 600%;
   border-radius: 6px;
   border: none;
@@ -37,7 +37,7 @@ footer {
 
 .search-button {
   width: 10%;
-  max-width: 200%;
+  max-width: 100%;
   color: aliceblue;
   background-color: blueviolet;
   border-radius: 6px;
