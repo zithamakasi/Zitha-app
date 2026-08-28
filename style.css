@@ -37,12 +37,12 @@ footer {
 
 .search-button {
   width: 10%;
-  max-width: 100%;
+  max-width: 700%;
   color: aliceblue;
   background-color: blueviolet;
   border-radius: 6px;
   border: none;
-  padding: 10px;
+  padding: 7px;
   margin: 2px;
 }
 
